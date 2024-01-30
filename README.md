@@ -7,17 +7,18 @@ This project aims to predict the review score of a game based off of its review 
 
 ### Overall Project ecosystem
 
-Webscraping:
-    Webscraping is done in 2 steps: urls for reviews are aggregated from outlets and then the reviews get scraped for review text and score.
-    For more detailed code explanations, check the gamespot scrapers. 
+#### Webscraping:
 
-Preprocessing
-    Preprocessing was done in 3 main steps: excess noise from the reviews were removed, sentence tokens were created and then tokens were cleaned. In order to preprocess text, simply call the main function on a column of a pandas dataframe using the apply object method.
+Webscraping is done in 2 steps: urls for reviews are aggregated from outlets and then the reviews get scraped for review text and score.
+For more detailed code explanations, check the gamespot scrapers. 
 
-Vectorization
-    Vectorization techniques were each implemented separately with additional functions to automate the generation of word2vec models for a specifiable range of vocab sizes and dimensions.
+#### Preprocessing
+Preprocessing was done in 3 main steps: excess noise from the reviews were removed, sentence tokens were created and then tokens were cleaned. In order to preprocess text, simply call the main function on a column of a pandas dataframe using the apply object method.
 
-Modelling
-    Modelling was done using sci-kit learn. 
+#### Vectorization
+Vectorization techniques were each implemented separately with additional functions to automate the generation of word2vec models for a specifiable range of vocab sizes and dimensions.
+
+#### Modelling
+Modelling was done using sci-kit learn. 
 
 
