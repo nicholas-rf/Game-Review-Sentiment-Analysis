@@ -19,6 +19,6 @@ Preprocessing was done in 3 main steps: excess noise from the reviews were remov
 Vectorization techniques were each implemented separately with additional functions to automate the generation of word2vec models for a specifiable range of vocab sizes and dimensions.
 
 #### Modelling
-Predictive modelling was done using sci-kit learn and BERT modelling was done using HuggingFace tranformers
+Predictive modelling was done using sci-kit learn and BERT modelling was done using HuggingFace transformers
 
 
